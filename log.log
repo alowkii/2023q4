@@ -1,0 +1,455 @@
+
+
+sub.txt head:
+                   adsh   cik                            name     sic countryba stprba       cityba       zipba                                     bas1 bas2            baph countryma stprma       cityma       zipma                                     mas1 mas2 countryinc stprinc        ein                          former     changed    afs  wksi     fye  form      period      fy  fp     filed               accepted  prevrpt  detail               instance  nciks aciks
+0  0000002178-23-000091  2178  ADAMS RESOURCES & ENERGY, INC.  5172.0        US     TX      HOUSTON       77027                   17 S. BRIAR HOLLOW LN.  NaN    713-881-3600        US     TX      HOUSTON       77001                              P O BOX 844  NaN         US      DE  741753147    ADAMS RESOURCES & ENERGY INC  19920703.0  2-ACC     0  1231.0  10-Q  20230930.0  2023.0  Q3  20231108  2023-11-08 17:24:00.0        0       1    ae-20230930_htm.xml      1   NaN
+1  0000002488-23-000195  2488      ADVANCED MICRO DEVICES INC  3674.0        US     CA  SANTA CLARA       95054                     2485 AUGUSTINE DRIVE  NaN  (408) 749-4000        US     CA  SANTA CLARA       95054                     2485 AUGUSTINE DRIVE  NaN         US      DE  941692300                             NaN         NaN  1-LAF     0  1231.0  10-Q  20230930.0  2023.0  Q3  20231101  2023-11-01 16:20:00.0        0       1   amd-20230930_htm.xml      1   NaN
+2  0000002969-23-000047  2969  AIR PRODUCTS & CHEMICALS, INC.  2810.0        US     PA    ALLENTOWN  18106-5500                  1940 AIR PRODUCTS BLVD.  NaN      6104814911        US     PA    ALLENTOWN  18106-5500                  1940 AIR PRODUCTS BLVD.  NaN         US      DE  231274455  AIR PRODUCTS & CHEMICALS, INC.  20220408.0  1-LAF     1   930.0  10-K  20230930.0  2023.0  FY  20231116  2023-11-16 12:59:00.0        0       1   apd-20230930_htm.xml      1   NaN
+3  0000003499-23-000030  3499                  ALEXANDERS INC  6798.0        US     NJ      PARAMUS       07652                         210 ROUTE 4 EAST  NaN    201-587-8541        US     NJ      PARAMUS       07652                         210 ROUTE 4 EAST  NaN         US      DE  510100517                             NaN         NaN  2-ACC     0  1231.0  10-Q  20230930.0  2023.0  Q3  20231030  2023-10-30 08:26:00.0        0       1   alx-20230930_htm.xml      1   NaN
+4  0000003545-23-000030  3545                     ALICO, INC.   100.0        US     FL   FT. MYERS,       33913  10070 DANIELS INTERSTATE COURT STE. 100  NaN    239-226-2000        US     FL   FT. MYERS,       33913  10070 DANIELS INTERSTATE COURT STE. 100  NaN         US      FL  590906081                       ALICO INC  19920703.0  2-ACC     0   930.0  10-K  20230930.0  2023.0  FY  20231206  2023-12-06 16:36:00.0        0       1  alco-20230930_htm.xml      1   NaN
+
+
+Length of Not null "sic" sub.txt
+6732
+
+
+Length of sub.txt
+6882
+
+
+Length of "sic" sec.gov table
+                   adsh   cik                            name     sic countryba stprba       cityba       zipba                                     bas1 bas2            baph countryma stprma       cityma       zipma                                     mas1 mas2 countryinc stprinc        ein                          former     changed    afs  wksi     fye  form      period      fy  fp     filed               accepted  prevrpt  detail               instance  nciks aciks
+0  0000002178-23-000091  2178  ADAMS RESOURCES & ENERGY, INC.  5172.0        US     TX      HOUSTON       77027                   17 S. BRIAR HOLLOW LN.  NaN    713-881-3600        US     TX      HOUSTON       77001                              P O BOX 844  NaN         US      DE  741753147    ADAMS RESOURCES & ENERGY INC  19920703.0  2-ACC     0  1231.0  10-Q  20230930.0  2023.0  Q3  20231108  2023-11-08 17:24:00.0        0       1    ae-20230930_htm.xml      1   NaN
+1  0000002488-23-000195  2488      ADVANCED MICRO DEVICES INC  3674.0        US     CA  SANTA CLARA       95054                     2485 AUGUSTINE DRIVE  NaN  (408) 749-4000        US     CA  SANTA CLARA       95054                     2485 AUGUSTINE DRIVE  NaN         US      DE  941692300                             NaN         NaN  1-LAF     0  1231.0  10-Q  20230930.0  2023.0  Q3  20231101  2023-11-01 16:20:00.0        0       1   amd-20230930_htm.xml      1   NaN
+2  0000002969-23-000047  2969  AIR PRODUCTS & CHEMICALS, INC.  2810.0        US     PA    ALLENTOWN  18106-5500                  1940 AIR PRODUCTS BLVD.  NaN      6104814911        US     PA    ALLENTOWN  18106-5500                  1940 AIR PRODUCTS BLVD.  NaN         US      DE  231274455  AIR PRODUCTS & CHEMICALS, INC.  20220408.0  1-LAF     1   930.0  10-K  20230930.0  2023.0  FY  20231116  2023-11-16 12:59:00.0        0       1   apd-20230930_htm.xml      1   NaN
+3  0000003499-23-000030  3499                  ALEXANDERS INC  6798.0        US     NJ      PARAMUS       07652                         210 ROUTE 4 EAST  NaN    201-587-8541        US     NJ      PARAMUS       07652                         210 ROUTE 4 EAST  NaN         US      DE  510100517                             NaN         NaN  2-ACC     0  1231.0  10-Q  20230930.0  2023.0  Q3  20231030  2023-10-30 08:26:00.0        0       1   alx-20230930_htm.xml      1   NaN
+4  0000003545-23-000030  3545                     ALICO, INC.   100.0        US     FL   FT. MYERS,       33913  10070 DANIELS INTERSTATE COURT STE. 100  NaN    239-226-2000        US     FL   FT. MYERS,       33913  10070 DANIELS INTERSTATE COURT STE. 100  NaN         US      FL  590906081                       ALICO INC  19920703.0  2-ACC     0   930.0  10-K  20230930.0  2023.0  FY  20231206  2023-12-06 16:36:00.0        0       1  alco-20230930_htm.xml      1   NaN
+
+
+Sorted "sic" codes in sub.txt: 
+[np.int64(100), np.int64(200), np.int64(700), np.int64(900), np.int64(1000), np.int64(1040), np.int64(1090), np.int64(1220), np.int64(1221), np.int64(1311), np.int64(1381), np.int64(1382), np.int64(1389), np.int64(1400), np.int64(1520), np.int64(1531), np.int64(1540), np.int64(1600), np.int64(1623), np.int64(1700), np.int64(1731), np.int64(2000), np.int64(2011), np.int64(2013), np.int64(2015), np.int64(2020), np.int64(2024), np.int64(2030), np.int64(2033), np.int64(2040), np.int64(2050), np.int64(2052), np.int64(2060), np.int64(2070), np.int64(2080), np.int64(2082), np.int64(2086), np.int64(2090), np.int64(2092), np.int64(2100), np.int64(2111), np.int64(2200), np.int64(2211), np.int64(2221), np.int64(2273), np.int64(2300), np.int64(2320), np.int64(2330), np.int64(2340), np.int64(2400), np.int64(2421), np.int64(2430), np.int64(2451), np.int64(2510), np.int64(2511), np.int64(2520), np.int64(2522), np.int64(2531), np.int64(2600), np.int64(2611), np.int64(2621), np.int64(2631), np.int64(2650), np.int64(2670), np.int64(2673), np.int64(2711), np.int64(2721), np.int64(2731), np.int64(2750), np.int64(2761), np.int64(2780), np.int64(2800), np.int64(2810), np.int64(2820), np.int64(2821), np.int64(2833), np.int64(2834), np.int64(2835), np.int64(2836), np.int64(2840), np.int64(2842), np.int64(2844), np.int64(2851), np.int64(2860), np.int64(2870), np.int64(2890), np.int64(2891), np.int64(2911), np.int64(2990), np.int64(3011), np.int64(3021), np.int64(3050), np.int64(3060), np.int64(3080), np.int64(3081), np.int64(3086), np.int64(3089), np.int64(3100), np.int64(3140), np.int64(3211), np.int64(3221), np.int64(3231), np.int64(3241), np.int64(3250), np.int64(3260), np.int64(3272), np.int64(3290), np.int64(3310), np.int64(3312), np.int64(3317), np.int64(3330), np.int64(3334), np.int64(3341), np.int64(3350), np.int64(3357), np.int64(3360), np.int64(3390), np.int64(3411), np.int64(3412), np.int64(3420), np.int64(3430), np.int64(3433), np.int64(3440), np.int64(3442), np.int64(3443), np.int64(3448), np.int64(3460), np.int64(3470), np.int64(3480), np.int64(3490), np.int64(3510), np.int64(3523), np.int64(3524), np.int64(3530), np.int64(3531), np.int64(3533), np.int64(3537), np.int64(3540), np.int64(3541), np.int64(3550), np.int64(3555), np.int64(3559), np.int64(3560), np.int64(3561), np.int64(3562), np.int64(3564), np.int64(3567), np.int64(3569), np.int64(3570), np.int64(3571), np.int64(3572), np.int64(3576), np.int64(3577), np.int64(3578), np.int64(3579), np.int64(3580), np.int64(3585), np.int64(3590), np.int64(3600), np.int64(3612), np.int64(3613), np.int64(3620), np.int64(3621), np.int64(3630), np.int64(3634), np.int64(3640), np.int64(3651), np.int64(3652), np.int64(3661), np.int64(3663), np.int64(3669), np.int64(3670), np.int64(3672), np.int64(3674), np.int64(3677), np.int64(3678), np.int64(3679), np.int64(3690), np.int64(3711), np.int64(3713), np.int64(3714), np.int64(3715), np.int64(3716), np.int64(3720), np.int64(3721), np.int64(3724), np.int64(3728), np.int64(3730), np.int64(3743), np.int64(3751), np.int64(3760), np.int64(3790), np.int64(3812), np.int64(3821), np.int64(3822), np.int64(3823), np.int64(3824), np.int64(3825), np.int64(3826), np.int64(3827), np.int64(3829), np.int64(3841), np.int64(3842), np.int64(3843), np.int64(3844), np.int64(3845), np.int64(3851), np.int64(3861), np.int64(3873), np.int64(3910), np.int64(3942), np.int64(3944), np.int64(3949), np.int64(3990), np.int64(4011), np.int64(4013), np.int64(4210), np.int64(4213), np.int64(4400), np.int64(4412), np.int64(4512), np.int64(4513), np.int64(4522), np.int64(4581), np.int64(4610), np.int64(4700), np.int64(4731), np.int64(4812), np.int64(4813), np.int64(4822), np.int64(4832), np.int64(4833), np.int64(4841), np.int64(4899), np.int64(4900), np.int64(4911), np.int64(4922), np.int64(4923), np.int64(4924), np.int64(4931), np.int64(4932), np.int64(4941), np.int64(4953), np.int64(4955), np.int64(4991), np.int64(5000), np.int64(5010), np.int64(5013), np.int64(5030), np.int64(5031), np.int64(5040), np.int64(5045), np.int64(5047), np.int64(5050), np.int64(5051), np.int64(5063), np.int64(5065), np.int64(5070), np.int64(5072), np.int64(5080), np.int64(5084), np.int64(5090), np.int64(5094), np.int64(5099), np.int64(5110), np.int64(5122), np.int64(5130), np.int64(5140), np.int64(5141), np.int64(5150), np.int64(5160), np.int64(5171), np.int64(5172), np.int64(5180), np.int64(5190), np.int64(5200), np.int64(5211), np.int64(5311), np.int64(5331), np.int64(5400), np.int64(5411), np.int64(5412), np.int64(5500), np.int64(5531), np.int64(5600), np.int64(5621), np.int64(5651), np.int64(5661), np.int64(5700), np.int64(5712), np.int64(5731), np.int64(5734), np.int64(5735), np.int64(5810), np.int64(5812), np.int64(5900), np.int64(5912), np.int64(5940), np.int64(5944), np.int64(5945), np.int64(5960), np.int64(5961), np.int64(5990), np.int64(6021), np.int64(6022), np.int64(6029), np.int64(6035), np.int64(6036), np.int64(6099), np.int64(6111), np.int64(6141), np.int64(6153), np.int64(6159), np.int64(6162), np.int64(6163), np.int64(6199), np.int64(6200), np.int64(6211), np.int64(6221), np.int64(6282), np.int64(6311), np.int64(6321), np.int64(6324), np.int64(6331), np.int64(6351), np.int64(6361), np.int64(6399), np.int64(6411), np.int64(6500), np.int64(6510), np.int64(6512), np.int64(6513), np.int64(6519), np.int64(6531), np.int64(6552), np.int64(6770), np.int64(6792), np.int64(6794), np.int64(6795), np.int64(6798), np.int64(6799), np.int64(7000), np.int64(7011), np.int64(7200), np.int64(7310), np.int64(7311), np.int64(7320), np.int64(7330), np.int64(7331), np.int64(7340), np.int64(7350), np.int64(7359), np.int64(7361), np.int64(7363), np.int64(7370), np.int64(7371), np.int64(7372), np.int64(7373), np.int64(7374), np.int64(7380), np.int64(7381), np.int64(7389), np.int64(7500), np.int64(7510), np.int64(7600), np.int64(7812), np.int64(7819), np.int64(7822), np.int64(7830), np.int64(7841), np.int64(7900), np.int64(7948), np.int64(7990), np.int64(7997), np.int64(8000), np.int64(8011), np.int64(8050), np.int64(8051), np.int64(8060), np.int64(8062), np.int64(8071), np.int64(8082), np.int64(8090), np.int64(8093), np.int64(8111), np.int64(8200), np.int64(8351), np.int64(8700), np.int64(8711), np.int64(8731), np.int64(8734), np.int64(8741), np.int64(8742), np.int64(8744), np.int64(8900)]
+
+
+Length of sorted "sic" codes in sub.txt: 
+395
+
+
+Head for sic codes with counts for each
+      sic  count
+0  2834.0    635
+1  6770.0    304
+2  7372.0    291
+3  6798.0    260
+4  2836.0    212
+
+
+Head for unique sic codes with industry and "SIC Code" renamed to "sic"
+    sic                                Office                                    Industry Title
+0   100  Industrial Applications and Services                     AGRICULTURAL PRODUCTION-CROPS
+1   200  Industrial Applications and Services  AGRICULTURAL PROD-LIVESTOCK & ANIMAL SPECIALTIES
+2   700  Industrial Applications and Services                             AGRICULTURAL SERVICES
+4   900  Industrial Applications and Services                     FISHING, HUNTING AND TRAPPING
+5  1000     Office of Energy & Transportation                                      METAL MINING
+
+
+Merged table and final output: 
+                                                    Industry Title  count
+0                                    AGRICULTURAL PRODUCTION-CROPS     30
+1                 AGRICULTURAL PROD-LIVESTOCK & ANIMAL SPECIALTIES      5
+2                                            AGRICULTURAL SERVICES     15
+3                                    FISHING, HUNTING AND TRAPPING      2
+4                                                     METAL MINING     53
+5                                             GOLD AND SILVER ORES     47
+6                                         MISCELLANEOUS METAL ORES      6
+7                                 BITUMINOUS COAL & LIGNITE MINING      6
+8                         BITUMINOUS COAL & LIGNITE SURFACE MINING      6
+9                                    CRUDE PETROLEUM & NATURAL GAS    120
+10                                        DRILLING OIL & GAS WELLS     14
+11                            OIL & GAS FIELD EXPLORATION SERVICES     12
+12                                   OIL & GAS FIELD SERVICES, NEC     23
+13           MINING & QUARRYING OF NONMETALLIC MINERALS (NO FUELS)     21
+14                    GENERAL BLDG CONTRACTORS - RESIDENTIAL BLDGS      4
+15                                              OPERATIVE BUILDERS     22
+16                 GENERAL BLDG CONTRACTORS - NONRESIDENTIAL BLDGS      2
+17          HEAVY CONSTRUCTION OTHER THAN BLDG CONST - CONTRACTORS     10
+18          WATER, SEWER, PIPELINE, COMM & POWER LINE CONSTRUCTION      6
+19                        CONSTRUCTION - SPECIAL TRADE CONTRACTORS     11
+20                                                 ELECTRICAL WORK      4
+21                                       FOOD AND KINDRED PRODUCTS     28
+22                                             MEAT PACKING PLANTS      1
+23                         SAUSAGES & OTHER PREPARED MEAT PRODUCTS      1
+24                             POULTRY SLAUGHTERING AND PROCESSING      2
+25                                                  DAIRY PRODUCTS      1
+26                                     ICE CREAM & FROZEN DESSERTS      3
+27         CANNED, FROZEN & PRESERVD FRUIT, VEG & FOOD SPECIALTIES      7
+28                  CANNED, FRUITS, VEG, PRESERVES, JAMS & JELLIES      2
+29                                             GRAIN MILL PRODUCTS      7
+30                                                 BAKERY PRODUCTS      2
+31                                              COOKIES & CRACKERS      1
+32                                  SUGAR & CONFECTIONERY PRODUCTS      8
+33                                                     FATS & OILS      5
+34                                                       BEVERAGES     35
+35                                                  MALT BEVERAGES      4
+36                BOTTLED & CANNED SOFT DRINKS & CARBONATED WATERS      8
+37              MISCELLANEOUS FOOD PREPARATIONS & KINDRED PRODUCTS      7
+38                        PREPARED FRESH OR FROZEN FISH & SEAFOODS      2
+39                                                TOBACCO PRODUCTS      2
+40                                                      CIGARETTES      8
+41                                           TEXTILE MILL PRODUCTS      1
+42                                 BROADWOVEN FABRIC MILLS, COTTON      2
+43                  BROADWOVEN FABRIC MILLS, MAN MADE FIBER & SILK      1
+44                                                  CARPETS & RUGS      3
+45         APPAREL & OTHER FINISHD PRODS OF FABRICS & SIMILAR MATL     15
+46         MEN'S & BOYS' FURNISHGS, WORK CLOTHG, & ALLIED GARMENTS      7
+47                         WOMEN'S, MISSES', AND JUNIORS OUTERWEAR      2
+48           WOMEN'S, MISSES', CHILDREN'S & INFANTS' UNDERGARMENTS      1
+49                           LUMBER & WOOD PRODUCTS (NO FURNITURE)      4
+50                              SAWMILLS & PLANTING MILLS, GENERAL      1
+51            MILLWOOD, VENEER, PLYWOOD, & STRUCTURAL WOOD MEMBERS      4
+52                                                    MOBILE HOMES      3
+53                                             HOUSEHOLD FURNITURE     11
+54                      WOOD HOUSEHOLD FURNITURE, (NO UPHOLSTERED)      2
+55                                                OFFICE FURNITURE      1
+56                                      OFFICE FURNITURE (NO WOOD)      2
+57                                 PUBLIC BLDG & RELATED FURNITURE      1
+58                                        PAPERS & ALLIED PRODUCTS      1
+59                                                      PULP MILLS      2
+60                                                     PAPER MILLS      5
+61                                                PAPERBOARD MILLS      1
+62                                   PAPERBOARD CONTAINERS & BOXES      5
+63         CONVERTED PAPER & PAPERBOARD PRODS (NO CONTANERS/BOXES)      5
+64                              PLASTICS, FOIL & COATED PAPER BAGS      2
+65                 NEWSPAPERS: PUBLISHING OR PUBLISHING & PRINTING      6
+66                PERIODICALS: PUBLISHING OR PUBLISHING & PRINTING      1
+67                      BOOKS: PUBLISHING OR PUBLISHING & PRINTING      3
+68                                             COMMERCIAL PRINTING      5
+69                                         MANIFOLD BUSINESS FORMS      1
+70         BLANKBOOKS, LOOSELEAF BINDERS & BOOKBINDG & RELATD WORK      2
+71                                     CHEMICALS & ALLIED PRODUCTS     17
+72                                  INDUSTRIAL INORGANIC CHEMICALS     10
+73       PLASTIC MATERIAL, SYNTH RESIN/RUBBER, CELLULOS (NO GLASS)      4
+74          PLASTIC MATERIALS, SYNTH RESINS & NONVULCAN ELASTOMERS     14
+75                        MEDICINAL CHEMICALS & BOTANICAL PRODUCTS     56
+76                                     PHARMACEUTICAL PREPARATIONS    635
+77                        IN VITRO & IN VIVO DIAGNOSTIC SUBSTANCES     21
+78                 BIOLOGICAL PRODUCTS, (NO DISGNOSTIC SUBSTANCES)    212
+79      SOAP, DETERGENTS, CLEANG PREPARATIONS, PERFUMES, COSMETICS      8
+80       SPECIALTY CLEANING, POLISHING AND SANITATION PREPARATIONS      2
+81                 PERFUMES, COSMETICS & OTHER TOILET PREPARATIONS     26
+82             PAINTS, VARNISHES, LACQUERS, ENAMELS & ALLIED PRODS      3
+83                                    INDUSTRIAL ORGANIC CHEMICALS     43
+84                                          AGRICULTURAL CHEMICALS     17
+85                                 MISCELLANEOUS CHEMICAL PRODUCTS     13
+86                                            ADHESIVES & SEALANTS      1
+87                                              PETROLEUM REFINING     15
+88                      MISCELLANEOUS PRODUCTS OF PETROLEUM & COAL      2
+89                                             TIRES & INNER TUBES      1
+90                                      RUBBER & PLASTICS FOOTWEAR      3
+91         GASKETS, PACKG & SEALG DEVICES & RUBBER & PLASTICS HOSE      1
+92                                 FABRICATED RUBBER PRODUCTS, NEC      6
+93                                 MISCELLANEOUS PLASTICS PRODUCTS      1
+94                               UNSUPPORTED PLASTICS FILM & SHEET      1
+95                                          PLASTICS FOAM PRODUCTS      1
+96                                          PLASTICS PRODUCTS, NEC     16
+97                                      LEATHER & LEATHER PRODUCTS      5
+98                                           FOOTWEAR, (NO RUBBER)      5
+99                                                      FLAT GLASS      2
+100                                               GLASS CONTAINERS      1
+101                        GLASS PRODUCTS, MADE OF PURCHASED GLASS      1
+102                                              CEMENT, HYDRAULIC      1
+103                                       STRUCTURAL CLAY PRODUCTS      1
+104                                     POTTERY & RELATED PRODUCTS      1
+105                        CONCRETE PRODUCTS, EXCEPT BLOCK & BRICK      2
+106            ABRASIVE, ASBESTOS & MISC NONMETALLIC MINERAL PRODS      1
+107        STEEL WORKS, BLAST FURNACES & ROLLING & FINISHING MILLS      5
+108       STEEL WORKS, BLAST FURNACES & ROLLING MILLS (COKE OVENS)      9
+109                                             STEEL PIPE & TUBES      3
+110               PRIMARY SMELTING & REFINING OF NONFERROUS METALS      3
+111                                 PRIMARY PRODUCTION OF ALUMINUM      2
+112             SECONDARY SMELTING & REFINING OF NONFERROUS METALS      1
+113               ROLLING DRAWING & EXTRUDING OF NONFERROUS METALS      7
+114                        DRAWING & INSULATING OF NONFERROUS WIRE      3
+115                                NONFERROUS FOUNDRIES (CASTINGS)      2
+116                           MISCELLANEOUS PRIMARY METAL PRODUCTS      2
+117                                                     METAL CANS      3
+118                    METAL SHIPPING BARRELS, DRUMS, KEGS & PAILS      1
+119                          CUTLERY, HANDTOOLS & GENERAL HARDWARE     12
+120     HEATING EQUIP, EXCEPT ELEC & WARM AIR; & PLUMBING FIXTURES      3
+121         HEATING EQUIPMENT, EXCEPT ELECTRIC & WARM AIR FURNACES      3
+122                           FABRICATED STRUCTURAL METAL PRODUCTS      7
+123                     METAL DOORS, SASH, FRAMES, MOLDINGS & TRIM      3
+124                           FABRICATED PLATE WORK (BOILER SHOPS)      4
+125                     PREFABRICATED METAL BUILDINGS & COMPONENTS      2
+126                                     METAL FORGINGS & STAMPINGS      5
+127                           COATING, ENGRAVING & ALLIED SERVICES      6
+128          ORDNANCE & ACCESSORIES, (NO VEHICLES/GUIDED MISSILES)      7
+129                        MISCELLANEOUS FABRICATED METAL PRODUCTS      9
+130                                             ENGINES & TURBINES      6
+131                                     FARM MACHINERY & EQUIPMENT      7
+132             LAWN & GARDEN TRACTORS & HOME LAWN & GARDENS EQUIP      1
+133    CONSTRUCTION, MINING & MATERIALS HANDLING MACHINERY & EQUIP      2
+134                                 CONSTRUCTION MACHINERY & EQUIP      8
+135                          OIL & GAS FIELD MACHINERY & EQUIPMENT     17
+136               INDUSTRIAL TRUCKS, TRACTORS, TRAILORS & STACKERS      2
+137                               METALWORKG MACHINERY & EQUIPMENT      5
+138                             MACHINE TOOLS, METAL CUTTING TYPES      1
+139         SPECIAL INDUSTRY MACHINERY (NO METALWORKING MACHINERY)      4
+140                          PRINTING TRADES MACHINERY & EQUIPMENT      1
+141                                SPECIAL INDUSTRY MACHINERY, NEC     17
+142                       GENERAL INDUSTRIAL MACHINERY & EQUIPMENT      8
+143                                      PUMPS & PUMPING EQUIPMENT      7
+144                                         BALL & ROLLER BEARINGS      2
+145    INDUSTRIAL & COMMERCIAL FANS & BLOWERS & AIR PURIFING EQUIP      4
+146                            INDUSTRIAL PROCESS FURNACES & OVENS      1
+147                  GENERAL INDUSTRIAL MACHINERY & EQUIPMENT, NEC     10
+148                                    COMPUTER & OFFICE EQUIPMENT      3
+149                                           ELECTRONIC COMPUTERS      7
+150                                       COMPUTER STORAGE DEVICES      4
+151                              COMPUTER COMMUNICATIONS EQUIPMENT     10
+152                             COMPUTER PERIPHERAL EQUIPMENT, NEC     18
+153    CALCULATING & ACCOUNTING MACHINES (NO ELECTRONIC COMPUTERS)      5
+154                                           OFFICE MACHINES, NEC      1
+155                     REFRIGERATION & SERVICE INDUSTRY MACHINERY      4
+156     AIR-COND & WARM AIR HEATG EQUIP & COMM & INDL REFRIG EQUIP     16
+157             MISC INDUSTRIAL & COMMERCIAL MACHINERY & EQUIPMENT     16
+158    ELECTRONIC & OTHER ELECTRICAL EQUIPMENT (NO COMPUTER EQUIP)      5
+159                   POWER, DISTRIBUTION & SPECIALTY TRANSFORMERS      3
+160                             SWITCHGEAR & SWITCHBOARD APPARATUS      2
+161                                ELECTRICAL INDUSTRIAL APPARATUS     17
+162                                            MOTORS & GENERATORS      7
+163                                           HOUSEHOLD APPLIANCES      8
+164                                     ELECTRIC HOUSEWARES & FANS      3
+165                           ELECTRIC LIGHTING & WIRING EQUIPMENT     11
+166                              HOUSEHOLD AUDIO & VIDEO EQUIPMENT      8
+167           PHONOGRAPH RECORDS & PRERECORDED AUDIO TAPES & DISKS      1
+168                                TELEPHONE & TELEGRAPH APPARATUS     13
+169             RADIO & TV BROADCASTING & COMMUNICATIONS EQUIPMENT     31
+170                                  COMMUNICATIONS EQUIPMENT, NEC     24
+171                            ELECTRONIC COMPONENTS & ACCESSORIES     11
+172                                         PRINTED CIRCUIT BOARDS     10
+173                               SEMICONDUCTORS & RELATED DEVICES     96
+174               ELECTRONIC COILS, TRANSFORMERS & OTHER INDUCTORS      1
+175                                          ELECTRONIC CONNECTORS      8
+176                                     ELECTRONIC COMPONENTS, NEC     14
+177       MISCELLANEOUS ELECTRICAL MACHINERY, EQUIPMENT & SUPPLIES     52
+178                          MOTOR VEHICLES & PASSENGER CAR BODIES     31
+179                                             TRUCK & BUS BODIES      7
+180                              MOTOR VEHICLE PARTS & ACCESSORIES     45
+181                                                 TRUCK TRAILERS      1
+182                                                    MOTOR HOMES      3
+183                                               AIRCRAFT & PARTS      3
+184                                                       AIRCRAFT     18
+185                                AIRCRAFT ENGINES & ENGINE PARTS      3
+186                      AIRCRAFT PARTS & AUXILIARY EQUIPMENT, NEC      7
+187                               SHIP & BOAT BUILDING & REPAIRING     12
+188                                             RAILROAD EQUIPMENT      4
+189                                  MOTORCYCLES, BICYCLES & PARTS      8
+190                       GUIDED MISSILES & SPACE VEHICLES & PARTS      7
+191                         MISCELLANEOUS TRANSPORTATION EQUIPMENT     13
+192      SEARCH, DETECTION, NAVAGATION, GUIDANCE, AERONAUTICAL SYS     11
+193                               LABORATORY APPARATUS & FURNITURE      3
+194  AUTO CONTROLS FOR REGULATING RESIDENTIAL & COMML ENVIRONMENTS      1
+195   INDUSTRIAL INSTRUMENTS FOR MEASUREMENT, DISPLAY, AND CONTROL     18
+196                     TOTALIZING FLUID METERS & COUNTING DEVICES      2
+197   INSTRUMENTS FOR MEAS & TESTING OF ELECTRICITY & ELEC SIGNALS     12
+198                              LABORATORY ANALYTICAL INSTRUMENTS     32
+199                                   OPTICAL INSTRUMENTS & LENSES     11
+200                           MEASURING & CONTROLLING DEVICES, NEC     18
+201                     SURGICAL & MEDICAL INSTRUMENTS & APPARATUS    189
+202        ORTHOPEDIC, PROSTHETIC & SURGICAL APPLIANCES & SUPPLIES     33
+203                                    DENTAL EQUIPMENT & SUPPLIES      6
+204        X-RAY APPARATUS & TUBES & RELATED IRRADIATION APPARATUS      3
+205                  ELECTROMEDICAL & ELECTROTHERAPEUTIC APPARATUS     52
+206                                               OPHTHALMIC GOODS      7
+207                              PHOTOGRAPHIC EQUIPMENT & SUPPLIES      8
+208              WATCHES, CLOCKS, CLOCKWORK OPERATED DEVICES/PARTS      2
+209                              JEWELRY, SILVERWARE & PLATED WARE      5
+210                                           DOLLS & STUFFED TOYS      1
+211        GAMES, TOYS & CHILDREN'S VEHICLES (NO DOLLS & BICYCLES)      6
+212                                 SPORTING & ATHLETIC GOODS, NEC     25
+213                         MISCELLANEOUS MANUFACTURING INDUSTRIES     20
+214                                 RAILROADS, LINE-HAUL OPERATING      6
+215                   RAILROAD SWITCHING & TERMINAL ESTABLISHMENTS      1
+216                           TRUCKING & COURIER SERVICES (NO AIR)      3
+217                                            TRUCKING (NO LOCAL)     13
+218                                           WATER TRANSPORTATION      9
+219                     DEEP SEA FOREIGN TRANSPORTATION OF FREIGHT      9
+220                                  AIR TRANSPORTATION, SCHEDULED     16
+221                                           AIR COURIER SERVICES      3
+222                               AIR TRANSPORTATION, NONSCHEDULED     16
+223            AIRPORTS, FLYING FIELDS & AIRPORT TERMINAL SERVICES      1
+224                                    PIPE LINES (NO NATURAL GAS)     10
+225                                        TRANSPORTATION SERVICES     21
+226               ARRANGEMENT OF TRANSPORTATION OF FREIGHT & CARGO     11
+227                                  RADIOTELEPHONE COMMUNICATIONS      8
+228                   TELEPHONE COMMUNICATIONS (NO RADIOTELEPHONE)     26
+229                       TELEGRAPH & OTHER MESSAGE COMMUNICATIONS      6
+230                                    RADIO BROADCASTING STATIONS     13
+231                               TELEVISION BROADCASTING STATIONS     11
+232                          CABLE & OTHER PAY TELEVISION SERVICES     20
+233                                   COMMUNICATIONS SERVICES, NEC     22
+234                              ELECTRIC, GAS & SANITARY SERVICES      3
+235                                              ELECTRIC SERVICES     54
+236                                       NATURAL GAS TRANSMISSION     20
+237                        NATURAL GAS TRANSMISISON & DISTRIBUTION      6
+238                                       NATURAL GAS DISTRIBUTION     14
+239                             ELECTRIC & OTHER SERVICES COMBINED     31
+240                                  GAS & OTHER SERVICES COMBINED      5
+241                                                   WATER SUPPLY     14
+242                                                 REFUSE SYSTEMS     17
+243                                     HAZARDOUS WASTE MANAGEMENT      9
+244                  COGENERATION SERVICES & SMALL POWER PRODUCERS      2
+245                                        WHOLESALE-DURABLE GOODS      3
+246      WHOLESALE-MOTOR VEHICLES & MOTOR VEHICLE PARTS & SUPPLIES      2
+247                   WHOLESALE-MOTOR VEHICLE SUPPLIES & NEW PARTS      2
+248                WHOLESALE-LUMBER & OTHER CONSTRUCTION MATERIALS      5
+249              WHOLESALE-LUMBER, PLYWOOD, MILLWORK & WOOD PANELS      1
+250       WHOLESALE-PROFESSIONAL & COMMERCIAL EQUIPMENT & SUPPLIES      7
+251          WHOLESALE-COMPUTERS & PERIPHERAL EQUIPMENT & SOFTWARE      5
+252      WHOLESALE-MEDICAL, DENTAL & HOSPITAL EQUIPMENT & SUPPLIES      3
+253                     WHOLESALE-METALS & MINERALS (NO PETROLEUM)      3
+254                     WHOLESALE-METALS SERVICE CENTERS & OFFICES      5
+255    WHOLESALE-ELECTRICAL APPARATUS & EQUIPMENT, WIRING SUPPLIES      2
+256                    WHOLESALE-ELECTRONIC PARTS & EQUIPMENT, NEC     11
+257   WHOLESALE-HARDWARE & PLUMBING & HEATING EQUIPMENT & SUPPLIES      2
+258                                             WHOLESALE-HARDWARE      1
+259                      WHOLESALE-MACHINERY, EQUIPMENT & SUPPLIES      6
+260                     WHOLESALE-INDUSTRIAL MACHINERY & EQUIPMENT      5
+261                                   WHOLESALE-MISC DURABLE GOODS      4
+262           WHOLESALE-JEWELRY, WATCHES, PRECIOUS STONES & METALS      1
+263                                   WHOLESALE-DURABLE GOODS, NEC      4
+264                               WHOLESALE-PAPER & PAPER PRODUCTS      1
+265           WHOLESALE-DRUGS, PROPRIETARIES & DRUGGISTS' SUNDRIES     14
+266                       WHOLESALE-APPAREL, PIECE GOODS & NOTIONS      8
+267                         WHOLESALE-GROCERIES & RELATED PRODUCTS      7
+268                              WHOLESALE-GROCERIES, GENERAL LINE      6
+269                           WHOLESALE-FARM PRODUCT RAW MATERIALS      6
+270                          WHOLESALE-CHEMICALS & ALLIED PRODUCTS      2
+271                  WHOLESALE-PETROLEUM BULK STATIONS & TERMINALS      2
+272    WHOLESALE-PETROLEUM & PETROLEUM PRODUCTS (NO BULK STATIONS)      3
+273           WHOLESALE-BEER, WINE & DISTILLED ALCOHOLIC BEVERAGES      1
+274                       WHOLESALE-MISCELLANEOUS NONDURABLE GOODS      7
+275             RETAIL-BUILDING MATERIALS, HARDWARE, GARDEN SUPPLY      9
+276               RETAIL-LUMBER & OTHER BUILDING MATERIALS DEALERS      6
+277                                       RETAIL-DEPARTMENT STORES      4
+278                                          RETAIL-VARIETY STORES     13
+279                                             RETAIL-FOOD STORES      3
+280                                          RETAIL-GROCERY STORES     14
+281                                      RETAIL-CONVENIENCE STORES      1
+282                        RETAIL-AUTO DEALERS & GASOLINE STATIONS     22
+283                               RETAIL-AUTO & HOME SUPPLY STORES      9
+284                              RETAIL-APPAREL & ACCESSORY STORES      9
+285                                 RETAIL-WOMEN'S CLOTHING STORES      4
+286                                  RETAIL-FAMILY CLOTHING STORES     11
+287                                             RETAIL-SHOE STORES      5
+288          RETAIL-HOME FURNITURE, FURNISHINGS & EQUIPMENT STORES      6
+289                                        RETAIL-FURNITURE STORES      9
+290                 RETAIL-RADIO, TV & CONSUMER ELECTRONICS STORES      5
+291                     RETAIL-COMPUTER & COMPUTER SOFTWARE STORES      4
+292                        RETAIL-RECORD & PRERECORDED TAPE STORES      1
+293                                RETAIL-EATING & DRINKING PLACES     11
+294                                           RETAIL-EATING PLACES     49
+295                                    RETAIL-MISCELLANEOUS RETAIL     27
+296                      RETAIL-DRUG STORES AND PROPRIETARY STORES      7
+297                     RETAIL-MISCELLANEOUS SHOPPING GOODS STORES     10
+298                                          RETAIL-JEWELRY STORES      2
+299                                 RETAIL-HOBBY, TOY & GAME SHOPS      1
+300                                      RETAIL-NONSTORE RETAILERS      7
+301                             RETAIL-CATALOG & MAIL-ORDER HOUSES     29
+302                                      RETAIL-RETAIL STORES, NEC     14
+303                                      NATIONAL COMMERCIAL BANKS    102
+304                                         STATE COMMERCIAL BANKS    205
+305                                          COMMERCIAL BANKS, NEC     10
+306                       SAVINGS INSTITUTION, FEDERALLY CHARTERED     50
+307                  SAVINGS INSTITUTIONS, NOT FEDERALLY CHARTERED     36
+308                   FUNCTIONS RELATED TO DEPOSITORY BANKING, NEC      3
+309                  FEDERAL & FEDERALLY-SPONSORED CREDIT AGENCIES     14
+310                                   PERSONAL CREDIT INSTITUTIONS     16
+311                        SHORT-TERM BUSINESS CREDIT INSTITUTIONS      9
+312                      MISCELLANEOUS BUSINESS CREDIT INSTITUTION      7
+313                         MORTGAGE BANKERS & LOAN CORRESPONDENTS      7
+314                                                   LOAN BROKERS      7
+315                                               FINANCE SERVICES     90
+316    SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES     11
+317                SECURITY BROKERS, DEALERS & FLOTATION COMPANIES     27
+318                          COMMODITY CONTRACTS BROKERS & DEALERS     70
+319                                              INVESTMENT ADVICE     57
+320                                                 LIFE INSURANCE     37
+321                                    ACCIDENT & HEALTH INSURANCE      4
+322                               HOSPITAL & MEDICAL SERVICE PLANS     11
+323                              FIRE, MARINE & CASUALTY INSURANCE     58
+324                                               SURETY INSURANCE      8
+325                                                TITLE INSURANCE      6
+326                                        INSURANCE CARRIERS, NEC      4
+327                            INSURANCE AGENTS, BROKERS & SERVICE     24
+328                                                    REAL ESTATE     64
+329                REAL ESTATE OPERATORS (NO DEVELOPERS) & LESSORS      7
+330                          OPERATORS OF NONRESIDENTIAL BUILDINGS     11
+331                               OPERATORS OF APARTMENT BUILDINGS      8
+332                                  LESSORS OF REAL PROPERTY, NEC      4
+333                     REAL ESTATE AGENTS & MANAGERS (FOR OTHERS)     17
+334                  LAND SUBDIVIDERS & DEVELOPERS (NO CEMETERIES)     12
+335                                                   BLANK CHECKS    304
+336                                            OIL ROYALTY TRADERS      2
+337                                        PATENT OWNERS & LESSORS     15
+338                                        MINERAL ROYALTY TRADERS      4
+339                                  REAL ESTATE INVESTMENT TRUSTS    260
+340                                                 INVESTORS, NEC      8
+341           HOTELS, ROOMING HOUSES, CAMPS & OTHER LODGING PLACES      5
+342                                                HOTELS & MOTELS     26
+343                                     SERVICES-PERSONAL SERVICES     42
+344                                           SERVICES-ADVERTISING     26
+345                                  SERVICES-ADVERTISING AGENCIES     10
+346        SERVICES-CONSUMER CREDIT REPORTING, COLLECTION AGENCIES      6
+347   SERVICES-MAILING, REPRODUCTION, COMMERCIAL ART & PHOTOGRAPHY      2
+348                      SERVICES-DIRECT MAIL ADVERTISING SERVICES      2
+349                        SERVICES-TO DWELLINGS & OTHER BUILDINGS      5
+350              SERVICES-MISCELLANEOUS EQUIPMENT RENTAL & LEASING      8
+351                       SERVICES-EQUIPMENT RENTAL & LEASING, NEC     17
+352                                   SERVICES-EMPLOYMENT AGENCIES      5
+353                                  SERVICES-HELP SUPPLY SERVICES     25
+354           SERVICES-COMPUTER PROGRAMMING, DATA PROCESSING, ETC.     70
+355                         SERVICES-COMPUTER PROGRAMMING SERVICES     47
+356                                  SERVICES-PREPACKAGED SOFTWARE    291
+357                    SERVICES-COMPUTER INTEGRATED SYSTEMS DESIGN     41
+358                SERVICES-COMPUTER PROCESSING & DATA PREPARATION    105
+359                       SERVICES-MISCELLANEOUS BUSINESS SERVICES      9
+360               SERVICES-DETECTIVE, GUARD & ARMORED CAR SERVICES      4
+361                                SERVICES-BUSINESS SERVICES, NEC    127
+362                 SERVICES-AUTOMOTIVE REPAIR, SERVICES & PARKING     10
+363                    SERVICES-AUTO RENTAL & LEASING (NO DRIVERS)     11
+364                         SERVICES-MISCELLANEOUS REPAIR SERVICES      3
+365                SERVICES-MOTION PICTURE & VIDEO TAPE PRODUCTION     10
+366                   SERVICES-ALLIED TO MOTION PICTURE PRODUCTION      4
+367              SERVICES-MOTION PICTURE & VIDEO TAPE DISTRIBUTION      3
+368                               SERVICES-MOTION PICTURE THEATERS      4
+369                                     SERVICES-VIDEO TAPE RENTAL      2
+370                       SERVICES-AMUSEMENT & RECREATION SERVICES     33
+371                     SERVICES-RACING, INCLUDING TRACK OPERATION      2
+372                  SERVICES-MISCELLANEOUS AMUSEMENT & RECREATION     39
+373                  SERVICES-MEMBERSHIP SPORTS & RECREATION CLUBS      4
+374                                       SERVICES-HEALTH SERVICES     26
+375              SERVICES-OFFICES & CLINICS OF DOCTORS OF MEDICINE     10
+376                    SERVICES-NURSING & PERSONAL CARE FACILITIES      7
+377                       SERVICES-SKILLED NURSING CARE FACILITIES      2
+378                                             SERVICES-HOSPITALS      4
+379             SERVICES-GENERAL MEDICAL & SURGICAL HOSPITALS, NEC      8
+380                                  SERVICES-MEDICAL LABORATORIES     34
+381                             SERVICES-HOME HEALTH CARE SERVICES      8
+382                    SERVICES-MISC HEALTH & ALLIED SERVICES, NEC     18
+383                  SERVICES-SPECIALTY OUTPATIENT FACILITIES, NEC      6
+384                                        SERVICES-LEGAL SERVICES      1
+385                                  SERVICES-EDUCATIONAL SERVICES     37
+386                               SERVICES-CHILD DAY CARE SERVICES      1
+387         SERVICES-ENGINEERING, ACCOUNTING, RESEARCH, MANAGEMENT      2
+388                                  SERVICES-ENGINEERING SERVICES     10
+389             SERVICES-COMMERCIAL PHYSICAL & BIOLOGICAL RESEARCH     22
+390                                  SERVICES-TESTING LABORATORIES      2
+391                                   SERVICES-MANAGEMENT SERVICES     14
+392                        SERVICES-MANAGEMENT CONSULTING SERVICES     65
+393                SERVICES-FACILITIES SUPPORT MANAGEMENT SERVICES      2
+394                                         SERVICES-SERVICES, NEC      2
+
+
+Total count for the "count" in the merged table: 
+6732
